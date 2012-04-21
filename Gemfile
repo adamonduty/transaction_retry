@@ -20,3 +20,5 @@ group :development do
   gem 'awesome_print', :require => false
   gem 'pry', :require => false
 end
+
+gem 'transaction_isolation', :git => 'git://github.com/adamonduty/transaction_isolation.git', :ref => 'ruby1.8.7'
